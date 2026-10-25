@@ -1,0 +1,33 @@
+[project]
+name = "rag-practice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "tushar7783", email = "tusharkr43@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "chromadb>=1.5.9",
+    "faiss-cpu>=1.15.1",
+    "ipykernel>=7.4.0",
+    "langchain>=1.4.7",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.7.0",
+    "langchain-groq>=1.1.3",
+    "langchain-openai>=1.7.2",
+    "langchain-text-splitters>=1.1.3",
+    "langgraph>=1.2.17",
+    "pymupdf>=2.0",
+    "pypdf>=6.21.2",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.2.0",
+    "typesense>=2.1.1",
+]
+
+[project.scripts]
+rag-practice = "rag_practice:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
