@@ -11,4 +11,5 @@ python-dotenv
 typesense
 langchain_openai
 langgraph
-
+ollama 
+langchain-google-genai
